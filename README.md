@@ -27,3 +27,10 @@ This repository contains a Python script (Jupyter notebook) implementing extract
 
 - Final street blocks layer - Artifacts were removed
 ![](illustrations/Zoom_streetblocks_cleaned.png)
+
+# 
+# TODOs
+
+- Downloading .osm files : After download, check size of file. If to low (<2kb), assume the downloading procedure failed and implement automatic retry
+- Some issues could appear on Windows when using 'osm2pgsql' command, regarding to the password for the Postgis databse. Try to find a way to fix it.
+- The 'snaptogrid_param' threshold could be to low for some tiles. Implement a "try, except" design to automatically increase a bit the threshold if it failed at first time.

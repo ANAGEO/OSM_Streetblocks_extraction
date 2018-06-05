@@ -1,5 +1,8 @@
 # OSM_Streetblocks_extraction
-This repository contains a Python script (Jupyter notebook) implementing extraction of street blocks from OpenStreetMap (or other sources of vectorial data) using PostGis
+This repository contains a Python script (Jupyter notebook) implementing extraction of street blocks from OpenStreetMap (or other sources of vectorial data) using PostGis. 
+
+The general workflow is as follow: 
+![](illustrations/Flowchart.png)
 
 - Input of the AOI as a polygon
 ![](illustrations/Full_AOI.png)
@@ -28,6 +31,6 @@ This repository contains a Python script (Jupyter notebook) implementing extract
 - Final street blocks layer - Artifacts were removed
 ![](illustrations/Zoom_streetblocks_cleaned.png)
 
-# 
+
 # Known issues
 - Some issues could appear on Windows when using 'osm2pgsql' command, regarding to the password for the Postgis databse.

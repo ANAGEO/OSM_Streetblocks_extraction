@@ -1,6 +1,10 @@
 # OSM Streetblocks extraction
 This repository contains a Python script (Jupyter notebook) implementing extraction of street blocks from OpenStreetMap (or other sources of vectorial data) using PostGis. 
 
+This code was published belong to the following paper:
+
+Grippa & al. 	Mapping Urban Land Use at Street Block Level Using OpenStreetMap, Remote Sensing Data, and Spatial Metrics. ISPRS Int. J. Geo-Inf. 2018, 7, 246. [doi:10.3390/ijgi7070246](https://doi.org/10.3390/ijgi7070246)
+
 For citing this code please use the following DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1290638.svg)](https://doi.org/10.5281/zenodo.1290638)
 
 The general workflow is as follow: 

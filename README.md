@@ -9,7 +9,7 @@ Grippa & al. 	Mapping Urban Land Use at Street Block Level Using OpenStreetMap, 
 Please use the following DOI for citing this code: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1290638.svg)](https://doi.org/10.5281/zenodo.1290638)
 
 ## Related code
-The code provided in this repository could be combined with the one provided in [https://github.com/ANAGEO/OSM_Streetblocks_extraction](https://github.com/ANAGEO/OSM_Streetblocks_extraction), to reproduce the aforementioned research.
+The code provided in this repository could be combined with the one provided in [https://github.com/tgrippa/Street_blocks_features_computation](https://github.com/tgrippa/Street_blocks_features_computation), to reproduce the aforementioned research.
 
 ## Workflow and outputs
 The general workflow is as follow: 

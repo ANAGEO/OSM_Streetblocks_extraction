@@ -45,3 +45,4 @@ The general workflow is as follow:
 
 ## Known issues
 - Some issues could appear on Windows when using 'osm2pgsql' command, regarding to the password for the Postgis databse.
+- The resulting layer could contain self-intersecting polygons. Add extra step should be added after the extraction of the block in order to check is there are self-interecting polygons, and fix them in this case.

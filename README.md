@@ -5,8 +5,13 @@ This code was published belong to the following paper:
 
 Grippa & al. 	Mapping Urban Land Use at Street Block Level Using OpenStreetMap, Remote Sensing Data, and Spatial Metrics. ISPRS Int. J. Geo-Inf. 2018, 7, 246. [doi:10.3390/ijgi7070246](https://doi.org/10.3390/ijgi7070246)
 
-For citing this code please use the following DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1290638.svg)](https://doi.org/10.5281/zenodo.1290638)
+## Cite this code
+Please use the following DOI for citing this code: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1290638.svg)](https://doi.org/10.5281/zenodo.1290638)
 
+## Related code
+The code provided in this repository could be combined with the one provided in [https://github.com/ANAGEO/OSM_Streetblocks_extraction](https://github.com/ANAGEO/OSM_Streetblocks_extraction), to reproduce the aforementioned research.
+
+## Workflow and outputs
 The general workflow is as follow: 
 ![](illustrations/Flowchart.png)
 
@@ -38,5 +43,5 @@ The general workflow is as follow:
 ![](illustrations/Zoom_streetblocks_cleaned.png)
 
 
-# Known issues
+## Known issues
 - Some issues could appear on Windows when using 'osm2pgsql' command, regarding to the password for the Postgis databse.
